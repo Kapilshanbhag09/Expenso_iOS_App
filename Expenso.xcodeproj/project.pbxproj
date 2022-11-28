@@ -25,6 +25,18 @@
 		2A9F764828DCADAA00DF7154 /* ExpensoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F764728DCADAA00DF7154 /* ExpensoUITests.swift */; };
 		2A9F764A28DCADAA00DF7154 /* ExpensoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F764928DCADAA00DF7154 /* ExpensoUITestsLaunchTests.swift */; };
 		2A9F765C28DCB5E800DF7154 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F765B28DCB5E800DF7154 /* SplashScreenView.swift */; };
+		2AFF9AF82931FD0D00E58F96 /* TransactionViewFinancialReportButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF9AF72931FD0D00E58F96 /* TransactionViewFinancialReportButton.swift */; };
+		2AFF9AFA2931FDF400E58F96 /* TransactionViewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF9AF92931FDF400E58F96 /* TransactionViewNavBar.swift */; };
+		2AFF9AFC29321B8000E58F96 /* TransactionViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF9AFB29321B8000E58F96 /* TransactionViewList.swift */; };
+		2AFF9AFF2932226900E58F96 /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF9AFE2932226900E58F96 /* TransactionDetailView.swift */; };
+		2AFF9B012932237400E58F96 /* TransactionDetailViewNavbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF9B002932237300E58F96 /* TransactionDetailViewNavbar.swift */; };
+		2AFF9B03293224F200E58F96 /* TransactionDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF9B02293224F200E58F96 /* TransactionDetailViewModel.swift */; };
+		2AFF9B052932294500E58F96 /* TransactionDetailViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF9B042932294500E58F96 /* TransactionDetailViewDetail.swift */; };
+		2AFF9B0829322B5000E58F96 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF9B0729322B5000E58F96 /* ViewExtension.swift */; };
+		2AFF9B0A29322BFE00E58F96 /* TransactionDetailMiddleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF9B0929322BFE00E58F96 /* TransactionDetailMiddleHeader.swift */; };
+		2AFF9B0C2932328500E58F96 /* NavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF9B0B2932328500E58F96 /* NavigationControllerExtension.swift */; };
+		2AFF9B0E29328F6000E58F96 /* TransactionDetailViewDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF9B0D29328F6000E58F96 /* TransactionDetailViewDescription.swift */; };
+		2AFF9B102932916C00E58F96 /* TransactionDetailViewAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF9B0F2932916C00E58F96 /* TransactionDetailViewAttachment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +78,18 @@
 		2A9F764728DCADAA00DF7154 /* ExpensoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensoUITests.swift; sourceTree = "<group>"; };
 		2A9F764928DCADAA00DF7154 /* ExpensoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2A9F765B28DCB5E800DF7154 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		2AFF9AF72931FD0D00E58F96 /* TransactionViewFinancialReportButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewFinancialReportButton.swift; sourceTree = "<group>"; };
+		2AFF9AF92931FDF400E58F96 /* TransactionViewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewNavBar.swift; sourceTree = "<group>"; };
+		2AFF9AFB29321B8000E58F96 /* TransactionViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewList.swift; sourceTree = "<group>"; };
+		2AFF9AFE2932226900E58F96 /* TransactionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailView.swift; sourceTree = "<group>"; };
+		2AFF9B002932237300E58F96 /* TransactionDetailViewNavbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewNavbar.swift; sourceTree = "<group>"; };
+		2AFF9B02293224F200E58F96 /* TransactionDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewModel.swift; sourceTree = "<group>"; };
+		2AFF9B042932294500E58F96 /* TransactionDetailViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewDetail.swift; sourceTree = "<group>"; };
+		2AFF9B0729322B5000E58F96 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		2AFF9B0929322BFE00E58F96 /* TransactionDetailMiddleHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailMiddleHeader.swift; sourceTree = "<group>"; };
+		2AFF9B0B2932328500E58F96 /* NavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerExtension.swift; sourceTree = "<group>"; };
+		2AFF9B0D29328F6000E58F96 /* TransactionDetailViewDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewDescription.swift; sourceTree = "<group>"; };
+		2AFF9B0F2932916C00E58F96 /* TransactionDetailViewAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewAttachment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +172,7 @@
 		2A5863722925523E001C4834 /* Transaction */ = {
 			isa = PBXGroup;
 			children = (
+				2AFF9AFD2932224300E58F96 /* TransactionDetail */,
 				2A58637329255248001C4834 /* Transaction */,
 			);
 			path = Transaction;
@@ -157,6 +182,9 @@
 			isa = PBXGroup;
 			children = (
 				2A5863742925525B001C4834 /* TransactionView.swift */,
+				2AFF9AF72931FD0D00E58F96 /* TransactionViewFinancialReportButton.swift */,
+				2AFF9AF92931FDF400E58F96 /* TransactionViewNavBar.swift */,
+				2AFF9AFB29321B8000E58F96 /* TransactionViewList.swift */,
 			);
 			path = Transaction;
 			sourceTree = "<group>";
@@ -210,6 +238,7 @@
 		2A9F762B28DCADA800DF7154 /* Expenso */ = {
 			isa = PBXGroup;
 			children = (
+				2AFF9B0629322B4000E58F96 /* Extension */,
 				2A58637629255289001C4834 /* Budget */,
 				2A5863722925523E001C4834 /* Transaction */,
 				2A58636E29254F1C001C4834 /* Home */,
@@ -246,6 +275,29 @@
 				2A9F764928DCADAA00DF7154 /* ExpensoUITestsLaunchTests.swift */,
 			);
 			path = ExpensoUITests;
+			sourceTree = "<group>";
+		};
+		2AFF9AFD2932224300E58F96 /* TransactionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				2AFF9AFE2932226900E58F96 /* TransactionDetailView.swift */,
+				2AFF9B002932237300E58F96 /* TransactionDetailViewNavbar.swift */,
+				2AFF9B02293224F200E58F96 /* TransactionDetailViewModel.swift */,
+				2AFF9B042932294500E58F96 /* TransactionDetailViewDetail.swift */,
+				2AFF9B0929322BFE00E58F96 /* TransactionDetailMiddleHeader.swift */,
+				2AFF9B0D29328F6000E58F96 /* TransactionDetailViewDescription.swift */,
+				2AFF9B0F2932916C00E58F96 /* TransactionDetailViewAttachment.swift */,
+			);
+			path = TransactionDetail;
+			sourceTree = "<group>";
+		};
+		2AFF9B0629322B4000E58F96 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2AFF9B0729322B5000E58F96 /* ViewExtension.swift */,
+				2AFF9B0B2932328500E58F96 /* NavigationControllerExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -379,14 +431,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A5863822925684D001C4834 /* ProfileAccountTopBG.swift in Sources */,
+				2AFF9B0A29322BFE00E58F96 /* TransactionDetailMiddleHeader.swift in Sources */,
+				2AFF9AFC29321B8000E58F96 /* TransactionViewList.swift in Sources */,
 				2A58636D29254E7C001C4834 /* MyProfileView.swift in Sources */,
+				2AFF9B0829322B5000E58F96 /* ViewExtension.swift in Sources */,
 				2A5863862925757E001C4834 /* HomePageRecentTransactinView.swift in Sources */,
+				2AFF9B0C2932328500E58F96 /* NavigationControllerExtension.swift in Sources */,
+				2AFF9AF82931FD0D00E58F96 /* TransactionViewFinancialReportButton.swift in Sources */,
+				2AFF9AFA2931FDF400E58F96 /* TransactionViewNavBar.swift in Sources */,
+				2AFF9B012932237400E58F96 /* TransactionDetailViewNavbar.swift in Sources */,
 				2A58637D29255F4B001C4834 /* ProfileViewIndiSectionView.swift in Sources */,
 				2A58638429256A24001C4834 /* ProfileAccountWalletSectionView.swift in Sources */,
 				2A9F762F28DCADA800DF7154 /* ContentView.swift in Sources */,
 				2A9F762D28DCADA800DF7154 /* ExpensoApp.swift in Sources */,
 				2A5863802925668F001C4834 /* ProfileAccountView.swift in Sources */,
+				2AFF9B03293224F200E58F96 /* TransactionDetailViewModel.swift in Sources */,
+				2AFF9B052932294500E58F96 /* TransactionDetailViewDetail.swift in Sources */,
+				2AFF9B0E29328F6000E58F96 /* TransactionDetailViewDescription.swift in Sources */,
 				2A58637B29255592001C4834 /* MyProfileTopDetailsView.swift in Sources */,
+				2AFF9B102932916C00E58F96 /* TransactionDetailViewAttachment.swift in Sources */,
+				2AFF9AFF2932226900E58F96 /* TransactionDetailView.swift in Sources */,
 				2A9F765C28DCB5E800DF7154 /* SplashScreenView.swift in Sources */,
 				2A5863792925529E001C4834 /* BudgetView.swift in Sources */,
 				2A58637129254F56001C4834 /* HomePageView.swift in Sources */,
